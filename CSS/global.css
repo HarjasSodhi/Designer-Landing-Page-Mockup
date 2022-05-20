@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+a:link {
+    color: #4F5665;
+}
+
+/* visited link */
+a:visited {
+    color: #4F5665;
+}
+
+/* selected link */
+a:active {
+    color: #4F5665;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background: #F53838;
+}

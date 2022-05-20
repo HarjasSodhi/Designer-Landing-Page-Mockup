@@ -1,0 +1,134 @@
+#Testimonials2 {
+    width: 100vw;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.testimonial_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial_text .header {
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    width: 30%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.testimonial_text .caption {
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    width: 40%;
+}
+
+.caraousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caraousel .left {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+    border: 1px solid #F53838;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+    align-items: center;
+}
+
+.caraousel .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+    border: 1px solid #F53838;
+    transition: 0.3s;
+    transform: rotate(180deg);
+}
+
+.caraousel .right:hover,
+.caraousel .left:hover {
+    background-color: #F53838;
+}
+
+.tray {
+    width: 90%;
+    margin: 0px 30px 0px 30px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.tray .content {
+    border: 2px solid #DDDDDD;
+    border-radius: 15px;
+    min-height: 100% !important;
+    width: 30% !important;
+    /* margin: 0px 5% 5rem 0%!important; */
+    padding: 20px 0px 0px 20px;
+}
+
+.tray .content:hover {
+    border-color: #F53838;
+    box-shadow: 0px 10px 100px -30px #8b8888;
+}
+
+.tray .content .header {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tray .content .header .img_container {
+    height: 45px;
+    width: 45px;
+}
+
+.tray .content .header .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10x;
+}
+
+.tray .content .header .rating img {
+    height: 30%;
+    width: 30%;
+}
+
+.data_person {
+    margin-left: -50px;
+}
+
+.data_person .name {
+    font-weight: bolder;
+}
+
+.data_person .title {
+    color: #4F5665;
+}
+
+.tray .content .review {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: "";
+}

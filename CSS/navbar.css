@@ -1,0 +1,58 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5rem;
+    padding: 0px 50px 0px 50px;
+}
+
+.nav_links a {
+    text-decoration: none;
+    padding: 0px 25px 0px 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav_links {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_links a:hover {
+    color: #F53855;
+    font-weight: bold;
+}
+
+.logo_container {
+    width: 9%;
+}
+
+.button_grp {
+    height: 100%;
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_grp button {
+    font-weight: bold;
+    border-radius: 20px;
+    height: 100%;
+    width: 47%;
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.button_grp :nth-child(2) {
+    border: 1px solid;
+    color: #F53855;
+}
+
+.button_grp button:hover {
+    color: white;
+    background-color: #F53855;
+}

@@ -1,0 +1,126 @@
+#Pricing {
+    width: 100vw;
+}
+
+.pricing_text {
+    margin-top: 7rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing_text .header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.pricing_text .caption {
+    text-align: center;
+    font-size: 15px;
+    width: 40%;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #4F5665;
+}
+
+#Pricing .cards_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 40px 120px 0px 120px;
+    margin-bottom: 5rem;
+}
+
+#Pricing .cards_container .card {
+    width: 27%;
+    border: 3px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    height: 45rem;
+    transition: 0.2s;
+}
+
+#Pricing .cards_container .card:hover {
+    border-color: #F53838;
+}
+
+#Pricing .cards_container .card .img_container {
+    margin-top: 6rem;
+    width: 40%;
+    height: 20%;
+}
+
+#Pricing .cards_container .card .name {
+    margin-top: 3rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+#Pricing .cards_container .card .points {
+    width: 80%;
+}
+
+
+#Pricing .cards_container .card .points div {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 14px;
+    color: #4F5665;
+}
+
+#Pricing .cards_container .card .points div img {
+    float: left;
+}
+
+#Pricing .cards_container .card .bottom {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+#Pricing .cards_container .card .bottom .price {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#Pricing .cards_container .card .bottom .price span {
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bolder;
+    /* margin-: 2rem; */
+}
+
+#Pricing .cards_container .card .bottom .btn {
+    font-weight: bolder;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    color: #F53838;
+    border: 1px solid #F53838;
+    margin-top: 2rem;
+    height: 2.5rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+#Pricing .cards_container .card .bottom .btn:hover {
+    color: white;
+    background-color: #F53838;
+    box-shadow: 0px 25px 70px -10px #F53838;
+}

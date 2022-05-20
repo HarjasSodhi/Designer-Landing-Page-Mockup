@@ -1,0 +1,141 @@
+#Footer {
+    background-color: #f8f8f8;
+    width: 100vw;
+    margin-top: 14rem;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 70px -30px #2f2f30;
+}
+
+.banner .text {
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+
+.banner .text .header {
+    font-weight: bolder;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    font-size: 2rem;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.banner .text .caption {
+    color: #4F5665;
+    margin-bottom: 3rem;
+}
+
+.banner .btn {
+    margin-right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 70%;
+    padding: 1.25rem 4rem 1.25rem 4rem;
+    border-radius: 15px;
+    background-color: #F53838;
+    box-shadow: 0px 30px 100px -10px #F53838;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+footer {
+    padding-top: 11rem;
+    display: flex;
+}
+
+.right_bar {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10rem;
+    margin-bottom: 5rem;
+}
+
+.right_bar>div :nth-child(1) {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.right_bar>div :not(.right_bar>div :nth-child(1)) {
+    cursor: pointer;
+    transition: 0.2s;
+    color: #4F5665;
+}
+
+.right_bar>div :not(.right_bar>div :nth-child(1)):hover {
+    color: #F53838;
+}
+
+.right_bar div div {
+    margin-bottom: 1.2rem;
+}
+
+.left_bar {
+    height: 100%;
+    width: 50%;
+    padding: 0px 0px 0px 9rem;
+}
+
+.left_bar .img_container {
+    width: 6rem;
+    height: 2rem;
+}
+
+.left_bar .socials {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10rem;
+    color: #F53838;
+}
+
+.left_bar .socials div {
+    box-shadow: 0px 50px 175px -10px #2f2f30;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10rem;
+    border-radius: 100%;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #ffffff;
+    color: #F53838;
+    box-shadow: 0px 5px 10px -1px #2f2f30;
+    cursor: pointer;
+}
+
+.left_bar .text {
+    padding-top: 1rem;
+    font-size: 15px;
+    width: 55%;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.left_bar .text span {
+    font-weight: bolder;
+}
+
+.left_bar .copyright {
+    padding-top: 2.5rem;
+    opacity: 0.3;
+    font-weight: bold;
+    font-size: 14px;
+}
