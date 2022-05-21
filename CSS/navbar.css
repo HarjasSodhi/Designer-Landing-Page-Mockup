@@ -3,19 +3,25 @@ nav {
     justify-content: space-around;
     align-items: center;
     margin-top: 2.5rem;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 10% 0px 10%;
 }
 
 .nav_links a {
     text-decoration: none;
-    padding: 0px 25px 0px 15px;
+    /* padding: 0px 0% 0px 10%; */
     transition: all 0.2s ease-in-out;
+    height:100%;
+    width:20%;
+    text-align: center;
+    font-size: 1em;
 }
 
 .nav_links {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
+    height: 100%;
+    margin-left: 10rem;
 }
 
 .nav_links a:hover {
@@ -29,7 +35,7 @@ nav {
 
 .button_grp {
     height: 100%;
-    width: 23%;
+    width: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,6 +45,7 @@ nav {
     font-weight: bold;
     border-radius: 20px;
     height: 100%;
+    font-size: 1em;
     width: 47%;
     font-size: 1em;
     padding: 10px;

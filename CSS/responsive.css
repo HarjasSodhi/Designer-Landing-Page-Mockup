@@ -1,0 +1,47 @@
+@media (max-width:1024px) {
+    #Pricing .cards_container .card {
+        width: 30%;
+    }
+
+    .tray .content {
+        width: 33% !important;
+        height: 15rem;
+    }
+
+    .right_bar>div :not(.right_bar>div :nth-child(1)) {
+        font-size: 13px;
+    }
+
+    .pricing_text .caption {
+        width: 50%;
+    }
+
+    #Testimonials1 .text .header {
+        width: 40%;
+    }
+
+    #Testimonials1 .text .caption {
+        width: 50%;
+    }
+
+    .testimonial_text .caption {
+        width: 50%;
+    }
+
+    .testimonial_text .header {
+        width: 40%;
+    }
+
+    .services_text .caption {
+        width: 115%;
+    }
+
+    #About {
+        margin-top: 2rem;
+        margin-bottom: 15rem;
+    }
+
+    .selling_points {
+        box-shadow: 0px 20px 130px -68px #6a6a6e;
+    }
+}
