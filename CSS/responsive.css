@@ -44,89 +44,369 @@
     .selling_points {
         box-shadow: 0px 20px 130px -68px #6a6a6e;
     }
-    .about_container_text_header,.about_container_text_header span{
+
+    .about_container_text_header,
+    .about_container_text_header span {
         font-size: 35px;
-    }  
+    }
+
     .about_container>div {
         height: 75%;
     }
-    .about_container_text_caption,.about_container_text_caption span {
+
+    .about_container_text_caption,
+    .about_container_text_caption span {
         font-size: 10px;
     }
 }
 
 @media (max-width:768px) {
-    .button_grp button, .nav_links a{
+
+    .button_grp button,
+    .nav_links a {
         font-size: 0.75em;
     }
+
     .nav_links {
         margin-left: 3rem;
     }
-    nav .logo_container{
+
+    nav .logo_container {
         width: 15%;
     }
-    .services>div{
+
+    .services>div {
         width: 50%;
     }
-    .services_text .caption{
+
+    .services_text .caption {
         font-size: 15px;
         width: 90%;
     }
+
     .about_container_text button {
         width: 212px;
         height: 45px;
     }
-    .about_container>div{
+
+    .about_container>div {
         width: 50%;
     }
-    .about_container_text_header, .about_container_text_header span {
+
+    .about_container_text_header,
+    .about_container_text_header span {
         font-size: 30px;
     }
+
     #Pricing .cards_container .card {
         width: 33%;
     }
+
     #Pricing .cards_container .card .points div {
         margin-top: 0.5rem;
     }
+
     .sp_text .caption {
         font-size: 13px;
     }
+
     .sp_text .header {
         font-size: 20px;
     }
+
     #About {
         margin-bottom: 12rem;
     }
+
     #Pricing .cards_container .card .img_container {
         width: 63%;
     }
+
     #Testimonials1 .text .header {
         width: 65%;
     }
+
     .map_container {
         height: 26rem;
         width: 94%;
     }
+
     .testimonial_text .header {
         width: 60%;
     }
+
     .testimonial_text .caption {
         width: 66%;
     }
+
     .tray .content .review {
         padding: 6px;
-    }   
+    }
+
     .data_person {
         margin-left: 0px;
     }
+
     .tray .content .header .img_container {
         height: 30px;
         width: 30px;
     }
+
     .right_bar {
         padding-right: 2rem;
     }
+
     .data_person .title {
         font-size: 12px;
+    }
+
+    .about_container>div {
+        width: 59%;
+    }
+}
+
+@media (max-width:425px) {
+    nav {
+        padding: 0px 3% 0px 3%;
+    }
+
+    nav .logo_container {
+        width: 15%;
+    }
+
+    .button_grp {
+        height: 25%;
+        width: 25%;
+    }
+
+    .nav_links a {
+        font-size: 8px;
+    }
+
+    .button_grp button {
+        font-size: 6.5px;
+    }
+
+    .about_container_text_header,
+    .about_container_text_header span {
+        font-size: 15px;
+        text-shadow: none;
+        font-weight: bolder;
+    }
+
+    .about_container_text button {
+        width: 121px;
+        height: 31px;
+        font-size: 12px;
+        box-shadow: 0px 5px 50px 1px #F53838;
+    }
+
+    .sp img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .sp_text {
+        margin-left: 17px;
+        width: 45%;
+    }
+
+    .sp_text .header {
+        font-size: 12px;
+    }
+
+    .line {
+        display: none
+    }
+
+    .services_text .header {
+        font-weight: bolder;
+        text-shadow: none;
+        font-size: 21px;
+        line-height: 30px;
+        padding: 40px 0px 0px 20px;
+        width: 210px;
+    }
+
+    .services_text .caption {
+        font-size: 13px;
+        width: 100%;
+        line-height: 20px;
+    }
+
+    .services_text .list>div {
+        font-size: 11px;
+        line-height: 28px;
+    }
+
+    #Pricing .cards_container {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin-top: 2rem;
+        align-items: center;
+    }
+
+    #Pricing .cards_container .card {
+        width: 85%;
+        margin-bottom: 2rem;
+    }
+
+    #Pricing .cards_container .card .points div {
+        margin-top: 1rem;
+    }
+
+    .map_container {
+        height: 14rem;
+    }
+
+    #Testimonials1 .logo_container img {
+        margin-left: 0px;
+    }
+
+    .banner .btn {
+        height: 2rem;
+        width: 12rem;
+        border-radius: 7px;
+        font-size: 10px;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .banner .text .header {
+        text-shadow: none;
+        font-size: 21px;
+        width: 100%;
+    }
+
+    .right_bar>div :nth-child(1) {
+        font-size: 13px;
+    }
+
+    .left_bar {
+        padding: 0px 0px 0px 2rem;
+    }
+
+    .right_bar>div :not(.right_bar>div :nth-child(1)) {
+        font-size: 7px;
+    }
+
+    .left_bar .text {
+        font-size: 11px;
+    }
+
+    .tray .content .review {
+        font-size: 9px;
+    }
+
+    .tray .content {
+        width: 50% !important;
+    }
+
+    .services .img_container {
+        margin-left: 4px;
+    }
+}
+
+@media (max-width:375px) {
+    .nav_links {
+        display: none;
+    }
+
+    .button_grp button {
+        font-size: 11.5px;
+    }
+
+    .button_grp {
+        width: 53%;
+    }
+
+    nav .logo_container {
+        width: 25%;
+    }
+
+    .about_container>div {
+        width: 67%;
+    }
+
+    .right_bar>div :nth-child(1) {
+        font-size: 10px;
+    }
+
+    .left_bar .img_container {
+        width: 5rem;
+        height: 1.5rem;
+    }
+
+    .sp_text .caption {
+        width: 76px;
+        font-size: 9px;
+    }
+
+    .banner .text .caption {
+        font-size: 12px;
+    }
+
+    .banner .text .header {
+        font-size: 16px;
+    }
+
+    .services_text .header {
+        padding: 34px 0px 0px 5px;
+    }
+
+    .services_text .list>div {
+        line-height: 18px;
+    }
+
+    .tray .content {
+        width: 100% !important;
+        margin-right: 40px;
+    }
+
+    .tray .content .review {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:320px) {
+    .banner .btn {
+        font-size: 9px;
+    }
+
+    .selling_points {
+        width: 100%;
+    }
+
+    .services_text .header {
+        width: 160px;
+    }
+
+    .about_container_text_header,
+    .about_container_text_header span {
+        margin-top: -2rem;
+    }
+
+    .about_container_image {
+        width: 75%;
+    }
+
+    .map_container {
+        height: 10rem;
+    }
+
+    .banner .btn {
+        margin-right: 1rem;
+    }
+
+    .right_bar {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tray .content {
+        margin-right: 35px;
     }
 }

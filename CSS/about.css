@@ -19,6 +19,7 @@
 
 .about_container_text {
     padding: 30px 0px 0px 60px;
+    z-index: 3
 }
 
 .about_container_image {

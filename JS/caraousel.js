@@ -32,10 +32,24 @@
 (function handleCaraousel() {
     const swiper = new Swiper('.swiper', {
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 20,
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            425: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            },
+        },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
-        }
+        },
     })
 })();
