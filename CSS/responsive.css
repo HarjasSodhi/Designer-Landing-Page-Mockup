@@ -1,3 +1,4 @@
+/* for 1024px screens */
 @media (max-width:1024px) {
     #Pricing .cards_container .card {
         width: 30%;
@@ -60,6 +61,7 @@
     }
 }
 
+/* for 768px screens */
 @media (max-width:768px) {
 
     .button_grp button,
@@ -165,6 +167,7 @@
     }
 }
 
+/* for 425px screens */
 @media (max-width:425px) {
     nav {
         padding: 0px 3% 0px 3%;
@@ -310,6 +313,7 @@
     }
 }
 
+/* for 375px screens */
 @media (max-width:375px) {
     .nav_links {
         display: none;
@@ -371,6 +375,7 @@
     }
 }
 
+/* for 320px screens */
 @media (max-width:320px) {
     .banner .btn {
         font-size: 9px;
