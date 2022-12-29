@@ -1,1 +1,1 @@
-# Deployed at https://josh-harjas-assignment.netlify.app/
+# Deployed at https://uimockup.netlify.app/
